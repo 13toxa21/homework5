@@ -1,0 +1,366 @@
+/*RESET.CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*END RESET.CSS*/
+
+.wraper{
+	max-width: 1920px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+header{
+	height: 140px;
+	background-color: #ebecee;
+}
+
+header .logo{
+	margin-left: 3%;
+}
+
+header .logo img{
+	margin-top: 70px;
+}
+
+header .menu ul{
+	display: flex;
+	justify-content: space-between;
+	width: 340px;
+
+}
+
+header .menu ul a{
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #333333;
+	font-weight: 500;
+}
+
+header .btn a{
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #333333;
+	padding: 25px 50px;
+	background-color: #ffffff;
+	border-radius: 35px;
+	text-transform: uppercase;
+}
+
+header .logo, header .menu, header .btn{
+	display: inline-block;
+}
+
+header .menu{
+	margin-left: 56%;
+	position: relative;
+	top: -20px;
+}
+
+header .btn{
+	margin-left: 2%;
+	position: relative;
+	top: -20px;
+}
+
+.container2{
+	background-image: url('./img/background_top.png');
+	height: calc(100vh - 140px);
+	background-repeat: no-repeat;
+	background-position-x: 100%;
+	background-color: #ebecee;
+	background-size: contain;
+}
+
+.container2 h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 60px;
+	font-weight: lighter;
+	color: #222222;
+	margin-left: 6%;
+	padding-top: 20%;
+}
+
+.container2 .bt{
+	margin-top: 5%;
+	margin-left: 14%;
+}
+
+.container2  a{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+	padding-left: 97px;
+	padding-right: 90px;
+	padding-bottom: 25px;
+	padding-top: 25px;
+	background-color: #ffffff;
+	border-radius: 35px;
+}
+
+.container3 h2{
+	margin-top: 95px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	text-align: center;
+	color: #141311;
+	margin-bottom: 25px;
+
+}
+
+.center{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container3 p{
+	font-weight: 300;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #333333;
+	text-align: center;
+	line-height: 24px;
+	margin-bottom: 35px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.container3 .cards{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.container3 .cards .item h3{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 22px;
+	font-weight: lighter;
+	text-align: left;
+	margin-left: 12%;
+	margin-top: 37px;
+}
+
+.container3 .cards .item p{
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+	font-weight: lighter;
+	text-align: left;
+	margin-left: 12%;
+	margin-top: 18px;
+	padding-right: 8%;
+	margin-bottom: 140px;
+}
+
+.container5{
+	background-image: url(./img/background5_2.png);
+	
+}
+
+.container5 .center{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.container5 .center h2{
+	padding-top: 250px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	font-size: 48px;
+	color: #ffffff;
+
+}
+
+.container5 .center .stok{
+	margin-top: 125px;
+	display: flex;
+	justify-content: center;
+}
+
+.container5 .center .stok .stok1{
+	width: 30%;
+	margin-bottom: 300px;
+	padding-bottom: 25px;
+}
+
+.container5 .center .stok .stok2{
+	width: 30%;
+	margin-bottom: 300px;
+	border-left: 1px solid #252525;
+	border-right: 1px solid #252525;
+	padding-bottom: 25px;
+}
+
+.container5 .center .stok .stok1 h3{
+	color: #c89d28;
+	font-family: 'Lato', sans-serif;
+	font-size: 58px;
+	text-align: center;
+}
+
+.container5 .center .stok .stok1 h3 .sup{
+	vertical-align: super;
+	font-size: 28px;
+}
+
+.container5 .center .stok .stok2 h3 .sup{
+	vertical-align: super;
+	font-size: 28px;
+}
+
+.container5 .center .stok .stok1 h4{
+	color: #efefef;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	font-size: 22px;
+	margin-top: 36px;
+	text-align: center;
+}
+
+.container5 .center .stok .stok1 p{
+	color: #999999;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 45px;
+}
+
+.container5 .center .stok .stok1 .btn1{
+	margin-top: 70px;
+	margin-left: 21%;
+}
+
+.container5 .center .stok .stok1 .btn{
+	margin-top: 70px;
+	margin-left: 21%;
+
+}
+
+.container5 .center .stok .stok1 .btn a{
+	text-decoration: none;
+	color: #333333;
+	background-color: #ffffff;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	padding: 25px 50px;
+	border-radius: 35px;
+}
+
+.container5 .center .stok .stok1 .btn1 a{
+	text-decoration: none;
+	color: #333333;
+	background-color: #ffffff;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	padding: 25px 85px;
+	border-radius: 35px;
+}
+
+.container5 .center .stok .stok2 h3{
+	color: #c89d28;
+	font-family: 'Lato', sans-serif;
+	font-size: 58px;
+	text-align: center;
+}
+
+.container5 .center .stok .stok2 h4{
+	color: #efefef;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	font-size: 22px;
+	margin-top: 36px;
+	text-align: center;
+}
+
+.container5 .center .stok .stok2 p{
+	color: #999999;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	line-height: 25px;
+	margin-top: 45px;
+}
+
+.container5 .center .stok .stok2 .btn{
+	margin-top: 70px;
+	margin-left: 21%;
+
+}
+
+.container5 .center .stok .stok2 .btn a{
+	text-decoration: none;
+	color: #333333;
+	background-color: #ffffff;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	padding: 25px 50px;
+	border-radius: 35px;
+}
+
+.container5 .center .stok .stok2 .btn1 a{
+	text-decoration: none;
+	color: #333333;
+	background-color: #ffffff;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	padding: 25px 85px;
+	border-radius: 35px;
+}
+
+
